@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "Quesers_ios",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}
