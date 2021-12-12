@@ -1,0 +1,33 @@
+
+.App ion-split-pane{
+    --side-max-width:100px
+}
+
+.App  *{
+    --ion-color-primary : var(--ion-color-success);
+}
+
+
+ ion-item.input{
+  border-radius: 10px;
+  border: 1px solid grey;
+  padding: 4px;
+}
+
+.mobile{
+    display: none;
+}
+.web{
+    display: block;
+}
+
+
+
+@media (max-width:700px){
+  .mobile{
+     display: block;
+  }
+  .web{
+      display: none;
+  }
+}
